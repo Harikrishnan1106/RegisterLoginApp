@@ -4,7 +4,7 @@ import axios from "axios";
 import { getUserData } from "./Storage";
 
 axios.defaults.baseURL = "https://identitytoolkit.googleapis.com/v1";
-const API_KEY = "AIzaSyDv11-90mCyStZa1qvQ8NIgxOHOW1wzvsY";
+const API_KEY = "Replace your Firebase API Key";
 const REGISTER_URL = `/accounts:signUp?key=${API_KEY}`;
 const LOGIN_URL = `/accounts:signInWithPassword?key=${API_KEY}`;
 const USER_DETAILS_URL=`/accounts:lookup?key=${API_KEY}`;
